@@ -3,6 +3,16 @@
   background-position: 50% 50%;
 }
 
+body, html {
+overflow-x: hidden !important;
+}
+
+/Corrigir escrollamento no Mobile/
+@media (max-width: 786px){
+body, html {
+overflow-x: hidden!important;
+}
+}
 .u-section-1 .u-sheet-1 {
   min-height: 1443px;
 }
